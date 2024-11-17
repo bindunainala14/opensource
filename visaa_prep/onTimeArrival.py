@@ -1,12 +1,7 @@
-n = int(input())
-times = []
-
-for i in range(n):
-  t = int(input())
-  times.append(t)
-
-for time in times: 
-  if t < 30:
-    print("NO")
-  else:
-    print("YES")
+T = int(input())
+for _ in range(T):
+    X = int(input())
+    if X >= 30:
+        print("YES")
+    else:
+        print("NO")
